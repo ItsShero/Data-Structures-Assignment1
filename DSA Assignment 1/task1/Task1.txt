@@ -1,0 +1,17 @@
+Task 1
+
+For task 1, since car parking garage's are limited in space and can't change in size randomly, it requires the user to input the total amount of car parks available at the start of each day.
+Until the user enters the total amount of car parks, the rest of the program is disabled and unable to be used, since the program is not sure how many car parks are available.
+
+Once the user enters the total car parks, the user is then able to add in car registration #s until the car park is full.
+
+Once the car park is full, the user is unable to add any more cars to the garage until one is retrieved.
+
+Once a car is retrieved, that car park is available and is the first to be filled when the next car comes in. If there are 10 cars, and the car spot in #3 opens up, #3 is the first to be filled
+since it is the closest to the office.
+
+The car location allows you to enter your cars registration number and allows you to see what space your car is parked in.
+
+When clicking on a car's rego number in the list on the right, you're able to see both the exact date and time the car is entered into the garage. This is unique for each car down to the second.
+You are also able to see in the same location the total time the car has been in the garage from when you retrieve the vehicle in order to charge the customer correctly.
+

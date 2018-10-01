@@ -1,0 +1,16 @@
+Task 2
+
+Since there was no specific way to enter the information stated in the prompt, I decided that user input was probably the easiest as you are then able to change it for each student and isn't hardcoded.
+While I realize for testing purposes a set array would be better, I wanted this program to work regardless of what names are put into the system.
+
+Input requires the user to put first name (string), last name (string), ID# (string), Program (string) and Uni Year (int).
+
+For Case-1 I had selected the use of quick sort. Since quick sort has the least amount of iterations, and the papers are randomly given to the invigilator it allows quick sort
+the ability to quickly sort the amount of papers every 10 iterations (sorts by batches of 10). This allows the papers to be sorted quickly and evenly allowing for the computer to handle whatever
+amount of papers are given to the professor if the class size were to change (but by default it is set to 50). The complexity for this algorithm is a moderate level. It is recursive and calls itself twice
+in order to partition the each group set.
+
+For Case-2 I had selected the use of selection sort. Since the papers are handed in one by one and by the time the last paper is turned in, the entire list should be sorted means that selection sort would
+be the best case for this. It allows the user to input papers and have the list be sorted almost instantly each time. The complexity for this algorithm, while achieving a similar goal to the above is still
+at a moderate level, but a little below. This sorting algorithm is not called recursively and instead uses a while loop in order to sort through the array. 
+
